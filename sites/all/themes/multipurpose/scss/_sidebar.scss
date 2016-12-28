@@ -1,0 +1,152 @@
+// Hacks
+#tiptip_arrow {
+    display: none !important;
+}
+#primary {
+    .sidebar-container {
+        .region-sidebar-first {
+            .block {
+                margin-bottom: 10px;
+                background-color: #f3f3f3;
+                h2 {
+                    border-top: solid 1px #bf1e2e;
+                    display: block;
+                    background-image: url('../images/header-block-bg.png');
+                    background-repeat: repeat-x;
+                    background-color: #941b27;
+                    color: #fff;
+                    padding: 8px 15px;
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-bottom: 0;
+                }
+                table {
+                    border: none;
+                    background: none;
+                    tr,td,th {
+                        border: none;
+                        vertical-align: middle;
+                    }
+                    td {
+                        a {
+                            vertical-align: middle;
+                            img {
+                                display: block;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                }
+                .block-calendar {
+                    .calendar-container {
+                        border-radius: 0;
+                        border-top: none;
+                        border-left: 1px solid #bbb;
+                        border-right: 1px solid #bbb;
+                        border-bottom: 1px solid #bbb;
+                        .calendar-daynames {
+                            padding: 38px 0 4px;
+                        }
+                        .pretty-calendar-week {
+                            .pretty-calendar-day,
+                            .pretty-calendar-weekend {
+                                .calendar-value {
+                                    border-radius: 3px;
+                                    height: 23px;
+                                    padding-top: 0;
+                                    width: 23px;
+                                    line-height: 24px;
+                                }
+                                &.pretty-calendar-today {
+                                    .calendar-value {
+                                        height: 21px;
+                                        padding-top: 0;
+                                        width: 21px;
+                                        line-height: 22px;
+                                        border-color: #bf1e2e;
+                                    }
+                                }
+                            }
+                            a {
+                                .calendar-value {
+                                    background-color: #bf1e2e;
+                                    border-color: #bf1e2e;
+                                }
+                            }
+                            .tooltip {
+                                .pretty-calendar-today {
+                                    .calendar-value {
+                                        color: #fff;
+                                        background-color: #59f;
+                                    }
+                                }
+                            }
+                        }
+                        .pretty-calendar-weekend {
+                            color: #bf1e2e;
+                        }
+                        .pretty-calendar-today {
+                            border-color: #bf1e2e;
+                            .calendar-value {
+                                color: #bf1e2e;
+                            }
+                        }
+                    }
+                }
+                .view-partneri {
+                    border-top: none;
+                    border-left: 1px solid #bbb;
+                    border-right: 1px solid #bbb;
+                    border-bottom: 1px solid #bbb;
+                    .view-content {
+                        display: block;
+                        overflow: hidden;
+                        clear: both;
+                    }
+                    .views-row {
+                        float: left;
+                        width: 40%;
+                        margin: 10px 5%;
+                        .field-content {
+                            display: block;
+                            vertical-align: top;
+                            text-align: center;
+                            a {
+                                display: inline-block;
+                                vertical-align: top;
+                                img {
+                                    display: block;
+                                    vertical-align: top;
+                                }
+                            }
+                        }
+                        &.views-row-even {
+                            clear: both;
+                        }
+                        &.views-row-1 {
+                            width: 90%;
+                            float: none;
+                            clear: none;
+                        }
+                        @media screen and (max-width: 960px) {
+                            margin-left: 1%;
+                            margin-right: 1%;
+                            width: 10% !important;
+                            clear: none !important;
+                            float: left !important;
+                        }
+                        @media screen and (max-width: 640px) {
+                            width: 18% !important;
+                        }
+                    }
+                }
+                @media screen and (max-width: 960px) {
+                    width: 100%;
+                    margin-left: 0;
+                    margin-right: 0;
+                    float: none;
+                }
+            }
+        }
+    }
+}

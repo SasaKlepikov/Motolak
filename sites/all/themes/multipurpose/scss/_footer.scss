@@ -1,0 +1,64 @@
+#footer-wrap {
+    #footer {
+        #footer-block-wrap {
+            vertical-align: top;
+            .footer-block {
+                margin-bottom: 0;
+                vertical-align: top;
+                .region {
+                    display: block;
+                    vertical-align: top;
+                    .block {
+                        margin-bottom: 0;
+                        .content {
+                            color: #666;
+                            strong {
+                                color: #bbb;
+                                font-weight: 600;
+                            }
+                            a {
+                                color: #999;
+                                &:hover {
+                                    color: #fff;
+                                }
+                            }
+                        }
+                    }
+                    &.region-footer-third {
+                        .block {
+                            .content {
+                                a {
+                                    color: #e5273a;
+                                    &:hover {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .view-homepage-clanky {
+                .view-content {
+                    .item-list {
+                        ul {
+                            .views-row {
+                                width: 100% !important;
+                                margin-left: 0 !important;
+                                margin-right: 0 !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+#wide-footer-wrapper {
+    #wide-footer-wrapper-top {
+        background: #0d0d0d;
+    }
+    #wide-footer-wrapper-bottom {
+        background: #000; border-top: 1px solid #111;
+    }
+}

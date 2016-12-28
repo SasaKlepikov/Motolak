@@ -1,0 +1,37 @@
+body.in-maintenance {
+    #wrap {
+        #header-wrap {
+            #logo {
+                text-align: center;
+                #site-logo {
+                    a {
+                        display: inline-block;
+                        vertical-align: top;
+                        img {
+                            max-width: 120px;
+                            display: block;
+                            vertical-align: top;
+                        }
+                    }
+                }
+            }
+            #site-name-slogan {
+                text-align: center;
+                #site-name {
+                    a {
+                        display: inline-block;
+                        vertical-align: top;
+                        img {
+                            max-width: 200px;
+                            display: block;
+                            vertical-align: top;
+                        }
+                    }
+                }
+            }
+        }
+        #main {
+            text-align: center;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.views-exposed-form {
+    .views-exposed-widgets {
+        .views-exposed-widget {
+            .form-item.form-type-textfield {
+                input {
+                    min-height: 19px;
+                } 
+            }
+        }
+    }
+}
+.chosen-container {
+    .chosen-choices {
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        padding: 5px 7px;
+    }
+    .chosen-drop {
+        max-width: 100%;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        .chosen-search {
+            input {
+                max-width: 100%;
+                box-sizing: border-box;
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+            }
+        }
+    }
+}
+.node-form {
+    .field-type-image {
+        .form-item.form-type-media {
+            .media-widget.form-media {
+                a.button.browse {
+                    min-width: 115px;
+                    display: inline-block;
+                }
+                .preview {
+                    margin-right: 0;
+                    .media-item {
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+}
+.image-widget.form-managed-file {
+    div.image-widget-data {
+        float: none;
+    }
+}

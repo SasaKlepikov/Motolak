@@ -1,0 +1,73 @@
+#main-menu {
+    ul.menu {
+        li {
+            .active-trail {
+                background: #bf1e2e;
+                color: #fff !important;
+            }
+            &.expanded {
+                span {
+                    color: #999;
+                    font-weight: 400;
+                    text-decoration: none;
+                    text-align: left;
+                    cursor: pointer;
+                    padding: 0 30px;
+                    display: block;
+                    position: relative;
+                    &:hover {
+                        background: #bf1e2e;
+                        color: #fff;
+                    }
+                    &::after {
+                        content: "\f107";
+                        margin-left: 5px;
+                        display: inline-block;
+                        font-family: FontAwesome;
+                        font-style: normal;
+                        font-weight: normal;
+                        line-height: 1;
+                        -webkit-font-smoothing: antialiased;
+                        -moz-osx-font-smoothing: grayscale;
+                    }
+                }
+            }
+            &.collapsed {
+                span {
+                    color: #999;
+                    font-weight: 400;
+                    text-decoration: none;
+                    text-align: left;
+                    cursor: pointer;
+                    padding: 0 30px;
+                    display: block;
+                    position: relative;
+                    &:hover {
+                        background: #bf1e2e;
+                        color: #fff;
+                    }
+                }
+            }
+        }
+    }
+}
+#sidr-main {
+    ul {
+        span.sidr-class-nolink {
+            display: block;
+            border-bottom: 1px solid #222;
+            border-bottom: 1px solid rgba(255,255,255,0.15);
+            padding: 8px 0;
+            color: #707070;
+            text-decoration: none;
+            outline: 0;
+            outline: none;
+        }
+        .sidr-class-active-trail {
+            color: #fff !important;
+        }
+    }
+}
+#site-navigation #main-menu > ul ul {
+    background: #222;
+}

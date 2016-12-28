@@ -215,10 +215,10 @@ $databases = array (
   array (
     'default' => 
     array (
-      'database' => 'alexandr-klepikovcz_811',
-      'username' => 'alexandr-477_646',
-      'password' => 'k8T3gp',
-      'host' => 'mysql4.ebola.cz',
+      'database' => 'motodb',
+      'username' => 'motodbu',
+      'password' => 'NV6MaFE6GM',
+      'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
       'prefix' => 'dru731_',

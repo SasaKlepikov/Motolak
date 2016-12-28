@@ -1,0 +1,285 @@
+.owl-carousel {
+    .owl-wrapper-outer {
+        .owl-wrapper {
+            .owl-item {
+                .field-content {
+                    position: relative;
+                    display: block;
+                    // Articles on HP
+                    .slide-articles {
+                        margin: 5px 0;
+                        position: relative;
+                        .slide-image {
+                            a {
+                                display: block;
+                                vertical-align: top;
+                                img {
+                                    width: 100%;
+                                    max-width: 100% !important;
+                                    height: auto;
+                                    padding: 0 !important;
+                                    margin: 0 !important;
+                                    border: none !important;
+                                    vertical-align: top;
+                                }
+                            }
+                        }
+                        .slide-text {
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            overflow: hidden;
+                            clear: both;
+                            background-color: $darkGray;
+                            padding: 10px 15px;
+                            color: #fff;
+                            h3 {
+                                margin-bottom: 5px;
+                                a {
+                                    color: #bf1e2e;
+                                    font-weight: 600;
+                                    font-size: 17px;
+                                    &:hover {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                            p {
+                                margin-bottom: 10px;
+                            }
+                            .created-date {
+                                color: #fff;
+                                font-weight: 600;
+                                float: right;
+                            }
+                        }
+                        &.slide-articles-col-2 {
+                            margin: 5px 2px;
+                        }
+                    }
+                    // Events on HP
+                    .slide-maps {
+                        margin: 5px 2px;
+                        position: relative;
+                        .slide-map {
+                            display: block;
+                            vertical-align: top;
+                        }
+                        .slide-event-text {
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            overflow: hidden;
+                            clear: both;
+                            background-color: $darkGray;
+                            padding: 10px 15px;
+                            color: #fff;
+                            h3 {
+                                margin-bottom: 5px;
+                                a {
+                                    color: #bf1e2e;
+                                    font-weight: 600;
+                                    font-size: 17px;
+                                    &:hover {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                            p {
+                                margin-bottom: 10px;
+                            }
+                            .event-date {
+                                font-weight: 600;
+                                float: right;
+                                text-align: right;
+                                color: #fff;
+                            }
+                        }
+                    }
+                    // Materials on Hp
+                    .slide-materials {
+                        margin: 5px 2px;
+                        position: relative;
+                        .slide-material-icon {
+                            .field_ikonka {
+                                a {
+                                    text-align: right;
+                                    display: block;
+                                    vertical-align: top;
+                                    img {
+                                        vertical-align: top;
+                                        display: inline-block;
+                                        border: none !important;
+                                        margin: 0 !important;
+                                        padding: 0 !important;
+                                        max-width: 100% !important;
+                                    }
+                                }
+                            }
+                        }
+                        .slide-material-tags {
+                            z-index: 5;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            right: 0;
+                            .tags_inner {
+                                vertical-align: top;
+                                display: inline-block;
+                                font-size: 12px;
+                                border-radius: 2px;
+                                padding: 2px 5px;
+                                margin-top: 3px;
+                                white-space: nowrap;
+                                overflow: hidden;
+                                color: #fff;
+                                &.tags_typ_materialu {
+                                    background-color: #222;
+                                }
+                                &.tags_obor {
+                                    background-color: #bf1e2e;
+                                }
+                                &.tags_predmet {
+                                    background-color: #48f;
+                                }
+                                &.tags_rocnik {
+                                    background-color: #666;
+                                }
+                            }
+                        }
+                        .slide-material-text {
+                            position: absolute;
+                            left: 0;
+                            right: 0;
+                            bottom: 0;
+                            overflow: hidden;
+                            clear: both;
+                            background-color: $darkGray;
+                            padding: 10px 15px;
+                            color: #fff;
+                            h3 {
+                                margin-bottom: 5px;
+                                a {
+                                    color: #bf1e2e;
+                                    font-weight: 600;
+                                    font-size: 17px;
+                                    &:hover {
+                                        color: #fff;
+                                    }
+                                }
+                            }
+                            p {
+                                margin-bottom: 10px;
+                            }
+                            .created {
+                                color: #fff;
+                                font-weight: 600;
+                                float: right;
+                            }
+                        }
+                    }
+                    @media screen and (max-width: 640px) {
+                        .slide-text {
+                            position: relative !important;
+                        } 
+                    }
+                }
+            }
+        }
+    }
+    .owl-controls {
+        margin-top: 0;
+        .owl-pagination {
+            padding: 7px 5px;
+            text-align: right;
+            background-color: #000000;
+            .owl-page {
+                vertical-align: top;
+                span {
+                    background-color: #868686;
+                }
+                &.active {
+                    span {
+                        background-color: #bf1e2e;
+                    }
+                }
+            }
+        }
+        .owl-buttons {
+            position: absolute;
+            bottom: 6px;
+            left: 0;
+            text-align: left;
+            .owl-prev,
+            .owl-next {
+                color: #bbb;
+                background-color: #434343;
+                opacity: 1;
+                border-radius: 5px;
+                margin: 0;
+                &:hover {
+                    color: #fff;
+                    background-color: #727272;
+                }
+            }
+            .owl-prev {
+                margin: 0 5px;
+            }
+        }
+    }
+}
+body.front {
+    #wrap {
+        #main {
+            #primary {
+                #content {
+                    #content-wrap {
+                        .region-content {
+                            .block-views {
+                                margin-bottom: 10px;
+                                h2 {
+                                    border-top: solid 1px #bf1e2e;
+                                    display: block;
+                                    background-image: url('../images/header-block-bg.png');
+                                    background-repeat: repeat-x;
+                                    background-color: #941b27;
+                                    color: #fff;
+                                    padding: 8px 15px;
+                                    font-size: 18px;
+                                    font-weight: 400;
+                                    margin-bottom: 0;
+                                }
+                                @media screen and (max-width: 640px) {
+                                    .view-homepage-clanky {
+                                        .view-content {
+                                            .owl-carousel {
+                                                .owl-wrapper-outer {
+                                                    .owl-wrapper {
+                                                        margin: 5px 0;
+                                                        background-color: #000000;
+                                                        .owl-item {
+                                                            .field-content {
+                                                                .slide-articles {
+                                                                    margin: 0;
+                                                                }
+                                                                .slide-text {
+                                                                    background: none;
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Implements hook_html_head_alter().
  * This will overwrite the default meta character type tag with HTML5 version.
@@ -18,7 +19,7 @@ function multipurpose_breadcrumb($variables) {
     // Use CSS to hide titile .element-invisible.
     $output = '<h2 class="element-invisible">' . t('You are here') . '</h2>';
     // comment below line to hide current page to breadcrumb
-$breadcrumb[] = drupal_get_title();
+    $breadcrumb[] = drupal_get_title();
     $output .= '<nav class="breadcrumb">' . implode(' » ', $breadcrumb) . '</nav>';
     return $output;
   }
@@ -91,7 +92,7 @@ function multipurpose_preprocess_node(&$variables) {
   if ($variables['view_mode'] == 'full' && node_is_page($variables['node'])) {
     $variables['classes_array'][] = 'node-full';
   }
-  $variables['date'] = t('!datetime', array('!datetime' =>  date('j F Y', $variables['created'])));
+  $variables['date'] = t('!datetime', array('!datetime' => date('j F Y', $variables['created'])));
 }
 
 function multipurpose_page_alter($page) {
@@ -100,9 +101,20 @@ function multipurpose_page_alter($page) {
     '#type' => 'html_tag',
     '#tag' => 'meta',
     '#attributes' => array(
-    'name' =>  'viewport',
-    'content' =>  'width=device-width, initial-scale=1, maximum-scale=1'
+      'name' => 'viewport',
+      'content' => 'width=device-width, initial-scale=1, maximum-scale=1'
     )
   );
   drupal_add_html_head($viewport, 'viewport');
+}
+
+function multipurpose_form_alter(&$form, &$form_state, $form_id) {
+  if ($form_id == 'user_login_block' || $form_id == 'user_login') {
+    unset($form['name']['#title']);
+    unset($form['pass']['#title']);
+    unset($form['name']['#description']);
+    unset($form['pass']['#description']);
+    $form['name']['#attributes']['placeholder'] = t('Login');
+    $form['pass']['#attributes']['placeholder'] = t('Heslo');
+  }
 }
