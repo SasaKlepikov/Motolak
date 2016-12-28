@@ -118,11 +118,11 @@
                         right: 0;
                         bottom: 0;
                         color: #fff;
-                        background: $darkGray;
+                        background: $lightRed;
                         .grid-title {
                             margin-bottom: 5px;
                             a {
-                                color: #bf1e2e;
+                                /* color: #bf1e2e; */
                                 font-weight: 600;
                                 font-size: 17px;
                                 &:hover {
@@ -290,7 +290,7 @@
                         bottom: 0;
                         overflow: hidden;
                         clear: both;
-                        background-color: $darkGray;
+                        background-color: $lightRed;
                         padding: 10px 15px;
                         color: #fff;
                         h3 {
@@ -332,7 +332,7 @@
             .field-content {
                 display: block;
                 width: 100%;
-                background: $darkGray;
+                background-color: #eee;
                 .person-wrapper {
                     display: table-row;
                     vertical-align: top;
@@ -353,33 +353,33 @@
                     .person-text {
                         display: table-cell;
                         vertical-align: top;
-                        color: #fff;
+                        color: #676767;
                         .person-text-inner {
                             display: inline-block;
                             padding: 5px 10px;
                             font-size: 12px;
                             .field_title {
-                                color: #bbb;
+                                color: #bf1e2e;
                                 font-size: 16px;
                                 font-weight: 600;
                             }
                             .field_page_link {
-                                color: #bbb;
+                                color: #bf1e2e;
                                 font-weight: 600;
                                 a {
                                     font-weight: normal;
                                 }
                             }
                             h4 {
-                                color: #fff;
+                                /* color: #fff; */
                                 margin: 5px 0;
-                                color: #bbb;
+                                color: #bf1e2e;
                                 font-weight: 600;
                                 font-size: 15px;
                             }
                             a {
                                 &:hover {
-                                    color: #676767;
+                                    color: #000;
                                 }
                             }
                         }
@@ -389,7 +389,7 @@
                     display: block;
                     padding: 5px 10px;
                     font-size: 12px;
-                    color: #fff;
+                    color: #676767;
                 }
             }
             @media screen and (max-width: 860px) {
@@ -517,17 +517,16 @@
     clear: both;
     margin: 40px 0;
     h2 {
-        border-top: solid 1px #bf1e2e;
-        display: block;
-        background-image: url('../images/header-block-bg.png');
-        background-repeat: repeat-x;
-        background-color: #941b27;
-        color: #fff;
-        padding: 8px 15px;
-        font-size: 18px;
-        font-weight: 400;
-        margin-top: 0;
-        margin-bottom: 0;
+		border: solid 1px #dfe0e4;
+		display: block;
+		/* background-image: url('../images/header-block-bg.png'); */
+		background-repeat: repeat-x;
+		background-color: #eee;
+		color: #bf1e2e;
+		padding: 8px 15px;
+		font-size: 18px;
+		font-weight: 400;
+		margin-bottom: 0;
     }
 }
 #block-views-klub-v-hod-block {

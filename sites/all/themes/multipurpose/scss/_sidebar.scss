@@ -9,12 +9,12 @@
                 margin-bottom: 10px;
                 background-color: #f3f3f3;
                 h2 {
-                    border-top: solid 1px #bf1e2e;
+                    border: solid 1px #dfe0e4;
                     display: block;
-                    background-image: url('../images/header-block-bg.png');
+                    /* background-image: url('../images/header-block-bg.png'); */
                     background-repeat: repeat-x;
-                    background-color: #941b27;
-                    color: #fff;
+                    background-color: #eee;
+                    color: #bf1e2e;
                     padding: 8px 15px;
                     font-size: 18px;
                     font-weight: 400;
@@ -41,9 +41,9 @@
                     .calendar-container {
                         border-radius: 0;
                         border-top: none;
-                        border-left: 1px solid #bbb;
-                        border-right: 1px solid #bbb;
-                        border-bottom: 1px solid #bbb;
+                        border-left: 1px solid #dfe0e4;
+                        border-right: 1px solid #dfe0e4;
+                        border-bottom: 1px solid #dfe0e4;
                         .calendar-daynames {
                             padding: 38px 0 4px;
                         }
@@ -95,9 +95,9 @@
                 }
                 .view-partneri {
                     border-top: none;
-                    border-left: 1px solid #bbb;
-                    border-right: 1px solid #bbb;
-                    border-bottom: 1px solid #bbb;
+                    border-left: 1px solid #dfe0e4;
+                    border-right: 1px solid #dfe0e4;
+                    border-bottom: 1px solid #dfe0e4;
                     .view-content {
                         display: block;
                         overflow: hidden;

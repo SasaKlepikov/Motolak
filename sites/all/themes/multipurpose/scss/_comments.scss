@@ -2,17 +2,16 @@
     .content {
         #comments {
             h2.title.comment-form {
-                border-top: solid 1px #bf1e2e;
-                display: block;
-                background-image: url(../images/header-block-bg.png);
-                background-repeat: repeat-x;
-                background-color: #941b27;
-                color: #fff;
-                padding: 8px 15px;
-                font-size: 18px;
-                font-weight: 400;
-                margin-top: 0;
-                margin-bottom: 0;
+				border: solid 1px #dfe0e4;
+				display: block;
+				/* background-image: url('../images/header-block-bg.png'); */
+				background-repeat: repeat-x;
+				background-color: #eee;
+				color: #bf1e2e;
+				padding: 8px 15px;
+				font-size: 18px;
+				font-weight: 400;
+				margin-bottom: 0;
             }
         }
         .comment-form,

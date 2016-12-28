@@ -31,13 +31,13 @@
                             bottom: 0;
                             overflow: hidden;
                             clear: both;
-                            background-color: $darkGray;
+                            background-color: $lightRed;
                             padding: 10px 15px;
                             color: #fff;
                             h3 {
                                 margin-bottom: 5px;
                                 a {
-                                    color: #bf1e2e;
+                                    color: #fff;
                                     font-weight: 600;
                                     font-size: 17px;
                                     &:hover {
@@ -79,7 +79,7 @@
                             h3 {
                                 margin-bottom: 5px;
                                 a {
-                                    color: #bf1e2e;
+                                    color: #fff;
                                     font-weight: 600;
                                     font-size: 17px;
                                     &:hover {
@@ -162,7 +162,7 @@
                             h3 {
                                 margin-bottom: 5px;
                                 a {
-                                    color: #bf1e2e;
+                                    color: #fff;
                                     font-weight: 600;
                                     font-size: 17px;
                                     &:hover {
@@ -190,11 +190,11 @@
         }
     }
     .owl-controls {
-        margin-top: 0;
+        margin-top: -7px;
         .owl-pagination {
             padding: 7px 5px;
             text-align: right;
-            background-color: #000000;
+            background-color: #eee;
             .owl-page {
                 vertical-align: top;
                 span {
@@ -214,14 +214,14 @@
             text-align: left;
             .owl-prev,
             .owl-next {
-                color: #bbb;
-                background-color: #434343;
+                color: #676767;
+                background-color: #fff;
                 opacity: 1;
                 border-radius: 5px;
                 margin: 0;
                 &:hover {
                     color: #fff;
-                    background-color: #727272;
+                    background-color: #676767;
                 }
             }
             .owl-prev {
@@ -240,12 +240,12 @@ body.front {
                             .block-views {
                                 margin-bottom: 10px;
                                 h2 {
-                                    border-top: solid 1px #bf1e2e;
+                                    border: solid 1px #dfe0e4;
                                     display: block;
-                                    background-image: url('../images/header-block-bg.png');
+                                    /* background-image: url('../images/header-block-bg.png'); */
                                     background-repeat: repeat-x;
-                                    background-color: #941b27;
-                                    color: #fff;
+                                    background-color: #eee;
+                                    color: #bf1e2e;
                                     padding: 8px 15px;
                                     font-size: 18px;
                                     font-weight: 400;
