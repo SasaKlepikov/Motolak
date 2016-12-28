@@ -177,7 +177,7 @@ a { outline: 0 }
 #main-menu > ul li.sfHover > .sf-mega { display: block }
 /*styling*/
 #site-navigation #main-menu > ul li { display: block; float: left; height: 55px; line-height: 55px; }
-#site-navigation #main-menu > ul a { color: #999; font-weight: 400; text-decoration: none; text-align: left; cursor: pointer; padding: 0 30px; }
+#site-navigation #main-menu > ul a { color: #fff; font-weight: 400; text-decoration: none; text-align: left; cursor: pointer; padding: 0 30px; }
 #site-navigation #main-menu > ul > li > a:hover,
 #site-navigation #main-menu > ul > li.sfHover > a,
 #site-navigation #main-menu > ul > li > a.active,
